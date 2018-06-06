@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.9.6)
+project(ndk_debug)
+set(CMAKE_CXX_STANDARD 14)
+add_subdirectory(lib1)
+add_subdirectory(lib2)
